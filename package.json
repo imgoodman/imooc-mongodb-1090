@@ -6,7 +6,10 @@
   "dependencies": {
     "moment": "^2.12.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-nodemon": "^0.5.2",
+    "grunt-contrib-watch": "^1.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
