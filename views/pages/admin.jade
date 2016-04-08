@@ -6,27 +6,31 @@ block content
         div.form-group
           label.control-label.col-sm-3(for="inputTitle") 电影名字
           div.col-sm-9
-            input#inputTitle.form-control(name="movie[title]",type="text")
+            input#inputTitle.form-control(name="movie[title]",type="text",value="#{movie.title}")
         div.form-group
           label.control-label.col-sm-3(for="inputDoctor") 导演
           div.col-sm-9
-            input#inputDoctor.form-control(type="text",name="movie[doctor]")
+            input#inputDoctor.form-control(type="text",name="movie[doctor]",value="#{movie.doctor}")
         div.form-group
           label.col-sm-3.control-label(for="inputCountry") 国家
           div.col-sm-9
-            input#inputCountry.form-control(type="text",name="movie[country]")
+            input#inputCountry.form-control(type="text",name="movie[country]",value="#{title.country}")
         div.form-group
           label.col-sm-3.control-label(for="inputLanguage") 语言
           div.col-sm-9
-            input#inputLanguage.form-control(type="text",name="movie[language]")
+            input#inputLanguage.form-control(type="text",name="movie[language]",value="#{movie.language}")
         div.form-group
           label.col-sm-3.control-label(for="inputYear") 上映年份
           div.col-sm-9
-            input#inputYear.form-control(type="text",name="movie[year]")
+            input#inputYear.form-control(type="text",name="movie[year]",value="#{movie.year}")
+        div.form-group
+          label.col-sm-3.control-label(for="inputPoster") 海报地址
+          div.col-sm-9
+            input#inputPoster.form-control(type="text",name="movie[poster]",value="#{movie.poster}")
         div.form-group
           label.col-sm-3.control-label(for="inputSummary") 简介
           div.col-sm-9
-            textarea#inputSummary.form-control(rows="5",name="movie[summary]")
+            textarea#inputSummary.form-control(rows="5",name="movie[summary]",value="#{movie.summary}")
         div.form-group
           div.col-sm-offset-3.col-sm-3
             button.btn.btn-primary(type="submit",value="保存")
