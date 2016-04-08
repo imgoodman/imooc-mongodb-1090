@@ -28,9 +28,13 @@ block content
           div.col-sm-9
             input#inputPoster.form-control(type="text",name="movie[poster]",value="#{movie.poster}")
         div.form-group
+          label.col-sm-3.control-label(for="inputFlash") 片源地址
+          div.col-sm-9
+            input#inputFlash.form-control(type="text",name="movie[flash]",value="#{movie.flash}")
+        div.form-group
           label.col-sm-3.control-label(for="inputSummary") 简介
           div.col-sm-9
             textarea#inputSummary.form-control(rows="5",name="movie[summary]",value="#{movie.summary}")
         div.form-group
           div.col-sm-offset-3.col-sm-3
-            button.btn.btn-primary(type="submit",value="保存")
+            button.btn.btn-primary(type="submit") 保存
