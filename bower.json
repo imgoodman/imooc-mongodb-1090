@@ -1,0 +1,26 @@
+{
+  "name": "imooc-node-mongodb",
+  "description": "通过node和mongodb快速搭建网站",
+  "main": "app.js",
+  "authors": [
+    "jan@163.com"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "mongodb"
+  ],
+  "homepage": "https://github.com/imgoodman/imooc-mongodb-1090",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}

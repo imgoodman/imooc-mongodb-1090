@@ -1,0 +1,27 @@
+{
+  "name": "imooc-node-mongodb",
+  "version": "1.0.0",
+  "description": "通过node和mongodb快速搭建网站 ",
+  "main": "app.js",
+  "dependencies": {
+    "moment": "^2.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imgoodman/imooc-mongodb-1090.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "jian huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imgoodman/imooc-mongodb-1090/issues"
+  },
+  "homepage": "https://github.com/imgoodman/imooc-mongodb-1090#readme"
+}
